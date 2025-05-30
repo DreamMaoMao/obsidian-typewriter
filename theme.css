@@ -193,7 +193,7 @@ body {
     calc(var(--theme-accent-l) - 0%)
   );
   --interactive-accent-rgb: 123, 108, 217;
-  --interactive-success: #197300;
+  --interactive-success: #733d00;
 
   --scrollbar-active-thumb-bg: rgba(0, 0, 0, 0.2);
   --scrollbar-bg: rgba(0, 0, 0, 0.05);
@@ -208,16 +208,16 @@ body {
 
 /* +++ DARK MODE */
 .theme-dark {
-  --background-primary: hsl(var(--base-h), var(--base-s), var(--base-d));
-  --background-primary-alt: #202020;
+  --background-primary: #201B14;
+  --background-primary-alt: #201B14;
   --background-secondary: hsl(
     calc(var(--base-h) + 30),
     calc(var(--base-s) + 11.5%),
     calc(var(--base-l) - 75.6%)
   );
   --background-secondary-alt: #000000;
-  --background-modifier-border: #333;
-  --background-modifier-border-hover: rgb(94, 94, 94);
+  --background-modifier-border: #383531;
+  --background-modifier-border-hover: rgb(75, 68, 64);
   --background-modifier-border-focus: hsl(
     var(--base-h),
     var(--base-s),
@@ -231,7 +231,7 @@ body {
   --background-modifier-form-field: rgba(0, 0, 0, 0.3);
   --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
-  --background-modifier-success: #197300;
+  --background-modifier-success: #733d00;
   --background-modifier-error: #3d0000;
   --background-modifier-error-rgb: 61, 0, 0;
   --background-modifier-error-hover: #470000;
@@ -254,14 +254,14 @@ body {
     calc(var(--theme-accent-d) - 10%)
   );
   --text-normal: rgb(197, 184, 161);
-  --text-muted: hsl(var(--base-h), var(--base-s), calc(var(--base-d) + 45%));
+  --text-muted: rgb(176, 172, 164);
   --text-faint: hsl(var(--base-h), var(--base-s), calc(var(--base-d) + 47%));
   --text-error: #800000;
   --text-error-hover: #990000;
 
   --text-highlight-bg: rgba(255, 177, 80, 0.3);
   --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
-  --text-selection: rgba(23, 48, 77, 0.99);
+  --text-selection: rgba(77, 67, 23, 0.99);
   --text-on-accent: #dcddde;
   --interactive-normal: #2a2a2a;
   --interactive-hover: #303030;
@@ -276,7 +276,7 @@ body {
     calc(var(--theme-accent-l) - 0%)
   );
   --interactive-accent-rgb: 72, 54, 153;
-  --interactive-success: #197300;
+  --interactive-success: #733a00;
   --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
   --scrollbar-bg: rgba(255, 255, 255, 0.05);
   --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
@@ -301,7 +301,7 @@ body {
   --font-smallest: 0.625em;
 
   --code-size: var(--font-small);
-  --code-normal: var(--blue);
+  --code-normal: var(--cufg);
 
   --h1: 1.8em;
   --h2: 1.55em;
@@ -346,6 +346,7 @@ body {
   --purple: #9e86c8;
   --pink: #b05279;
   --blue: #6c99bb;
+  --cufg: #c5c0b9;
 
   line-height: var(--line-height);
 }
